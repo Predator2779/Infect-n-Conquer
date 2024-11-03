@@ -1,4 +1,5 @@
 using DG.Tweening;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -28,6 +29,12 @@ namespace UI
         {
             base.OnPointerExit(eventData);
             transform.DOScale(_startScale, _duration);
+        }
+
+        private void OnDisable()
+        {
+            DOTween.KillAll();
+            // через CancellationToken
         }
     }
 }

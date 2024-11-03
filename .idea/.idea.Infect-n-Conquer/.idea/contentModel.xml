@@ -6,6 +6,7 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="PlayerController.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="DOTween" t="Include">
             <e p="Modules" t="Include">
@@ -22,6 +23,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ApplicationSwitcher.cs" t="Include" />
+          <e p="AutoRotateDisabler.cs" t="Include" />
+          <e p="SceneLoader.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="DOButton.cs" t="Include" />
             <e p="DoButtonEditor.cs" t="Include" />
