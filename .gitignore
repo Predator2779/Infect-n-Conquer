@@ -72,3 +72,6 @@ crashlytics-build.properties
 # Exceptions
 !*.dll
 !*.obj
+.idea/.idea.Infect-n-Conquer/.idea/contentModel.xml
+.idea/.idea.Infect-n-Conquer/.idea/indexLayout.xml
+.idea/.idea.Infect-n-Conquer/.idea/workspace.xml
