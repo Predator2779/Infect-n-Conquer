@@ -32,6 +32,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AutoRotateDisabler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/DOButton.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
