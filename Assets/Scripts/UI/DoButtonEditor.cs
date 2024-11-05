@@ -2,6 +2,8 @@
 
 namespace UI
 {
+    #if UNITY_EDITOR
+    
     [CustomEditor(typeof(DoButton))]
     public class DoButtonEditor : Editor
     {
@@ -14,4 +16,6 @@ namespace UI
             serializedObject.ApplyModifiedProperties();
         }
     }
+    
+    #endif
 }

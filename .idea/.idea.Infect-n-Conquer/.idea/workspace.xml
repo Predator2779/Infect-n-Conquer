@@ -27,12 +27,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DOButton.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Selectable.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/DoButtonEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AutoRotateDisabler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/DOButton.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/DoButtonEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/DOButton.cs" />
       </list>
     </option>
   </component>
@@ -81,7 +81,7 @@
       <workItem from="1730401437809" duration="2695000" />
       <workItem from="1730514366381" duration="1634000" />
       <workItem from="1730634552105" duration="666000" />
-      <workItem from="1730709429529" duration="2342000" />
+      <workItem from="1730709429529" duration="3035000" />
     </task>
     <servers />
   </component>
