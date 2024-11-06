@@ -252,7 +252,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         public GameplayActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Movement => m_Wrapper.m_Gameplay_Movement;
         public InputAction @Look => m_Wrapper.m_Gameplay_Look;
-        public InputAction @Infect => m_Wrapper.m_Gameplay_Infect;
+        public InputAction Attack => m_Wrapper.m_Gameplay_Infect;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -268,9 +268,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Look.started += instance.OnLook;
             @Look.performed += instance.OnLook;
             @Look.canceled += instance.OnLook;
-            @Infect.started += instance.OnInfect;
-            @Infect.performed += instance.OnInfect;
-            @Infect.canceled += instance.OnInfect;
+            Attack.started += instance.OnInfect;
+            Attack.performed += instance.OnInfect;
+            Attack.canceled += instance.OnInfect;
         }
 
         private void UnregisterCallbacks(IGameplayActions instance)
@@ -281,9 +281,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Look.started -= instance.OnLook;
             @Look.performed -= instance.OnLook;
             @Look.canceled -= instance.OnLook;
-            @Infect.started -= instance.OnInfect;
-            @Infect.performed -= instance.OnInfect;
-            @Infect.canceled -= instance.OnInfect;
+            Attack.started -= instance.OnInfect;
+            Attack.performed -= instance.OnInfect;
+            Attack.canceled -= instance.OnInfect;
         }
 
         public void RemoveCallbacks(IGameplayActions instance)

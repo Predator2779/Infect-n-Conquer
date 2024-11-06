@@ -31,8 +31,9 @@ namespace UI
             transform.DOScale(_startScale, _duration);
         }
 
-        private void OnDisable()
+        protected override void OnDisable()
         {
+            base.OnDisable();
             DOTween.KillAll();
             // через CancellationToken
         }
